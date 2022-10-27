@@ -1,0 +1,764 @@
+
+int Poison(stack*, int, int) at ..\Stack\CPP\stack.cpp(70)
+Stack[00000000016dfcb0] (OK)
+Data_Hash = 0
+{
+	 size = 0
+	capacity = 17
+	data[0000000001736c20]
+	{
+		*[0] = 0
+		*[1] = 0
+		*[2] = 0
+		*[3] = 0
+		*[4] = 0
+		*[5] = 0
+		*[6] = 0
+		*[7] = 0
+		*[8] = 0
+		*[9] = 0
+		*[10] = 0
+		*[11] = 0
+		*[12] = 0
+		*[13] = 0
+		*[14] = 0
+		*[15] = 0
+		*[16] = 0
+	}
+}
+
+int Poison(stack*, int, int) at ..\Stack\CPP\stack.cpp(82)
+Stack[00000000016dfcb0] (OK)
+Data_Hash = 105777672
+{
+	 size = 0
+	capacity = 17
+	data[0000000001736c20]
+	{
+		[0] = POISON
+		[1] = POISON
+		[2] = POISON
+		[3] = POISON
+		[4] = POISON
+		[5] = POISON
+		[6] = POISON
+		[7] = POISON
+		[8] = POISON
+		[9] = POISON
+		[10] = POISON
+		[11] = POISON
+		[12] = POISON
+		[13] = POISON
+		[14] = POISON
+		[15] = POISON
+		[16] = POISON
+	}
+}
+
+int StackCtor(stack*, int) at ..\Stack\CPP\stack.cpp(62)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = 105777672
+{
+	 size = 0
+	capacity = 17
+	data[0000000001736c20]
+	{
+		[0] = POISON
+		[1] = POISON
+		[2] = POISON
+		[3] = POISON
+		[4] = POISON
+		[5] = POISON
+		[6] = POISON
+		[7] = POISON
+		[8] = POISON
+		[9] = POISON
+		[10] = POISON
+		[11] = POISON
+		[12] = POISON
+		[13] = POISON
+		[14] = POISON
+		[15] = POISON
+		[16] = POISON
+	}
+}
+
+int StackPush(stack*, elem_t) at ..\Stack\CPP\stack.cpp(121)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = 105777672
+{
+	 size = 0
+	capacity = 17
+	data[0000000001736c20]
+	{
+		[0] = POISON
+		[1] = POISON
+		[2] = POISON
+		[3] = POISON
+		[4] = POISON
+		[5] = POISON
+		[6] = POISON
+		[7] = POISON
+		[8] = POISON
+		[9] = POISON
+		[10] = POISON
+		[11] = POISON
+		[12] = POISON
+		[13] = POISON
+		[14] = POISON
+		[15] = POISON
+		[16] = POISON
+	}
+}
+
+int StackPush(stack*, elem_t) at ..\Stack\CPP\stack.cpp(143)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = 104999890
+{
+	 size = 1
+	capacity = 17
+	data[0000000001736c20]
+	{
+		*[0] = -5
+		[1] = POISON
+		[2] = POISON
+		[3] = POISON
+		[4] = POISON
+		[5] = POISON
+		[6] = POISON
+		[7] = POISON
+		[8] = POISON
+		[9] = POISON
+		[10] = POISON
+		[11] = POISON
+		[12] = POISON
+		[13] = POISON
+		[14] = POISON
+		[15] = POISON
+		[16] = POISON
+	}
+}
+
+int StackPush(stack*, elem_t) at ..\Stack\CPP\stack.cpp(121)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = 104999890
+{
+	 size = 1
+	capacity = 17
+	data[0000000001736c20]
+	{
+		*[0] = -5
+		[1] = POISON
+		[2] = POISON
+		[3] = POISON
+		[4] = POISON
+		[5] = POISON
+		[6] = POISON
+		[7] = POISON
+		[8] = POISON
+		[9] = POISON
+		[10] = POISON
+		[11] = POISON
+		[12] = POISON
+		[13] = POISON
+		[14] = POISON
+		[15] = POISON
+		[16] = POISON
+	}
+}
+
+int StackPush(stack*, elem_t) at ..\Stack\CPP\stack.cpp(143)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = 103444864
+{
+	 size = 2
+	capacity = 17
+	data[0000000001736c20]
+	{
+		*[0] = -5
+		*[1] = 264
+		[2] = POISON
+		[3] = POISON
+		[4] = POISON
+		[5] = POISON
+		[6] = POISON
+		[7] = POISON
+		[8] = POISON
+		[9] = POISON
+		[10] = POISON
+		[11] = POISON
+		[12] = POISON
+		[13] = POISON
+		[14] = POISON
+		[15] = POISON
+		[16] = POISON
+	}
+}
+
+elem_t StackPop(stack*) at ..\Stack\CPP\stack.cpp(89)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = 103444864
+{
+	 size = 2
+	capacity = 17
+	data[0000000001736c20]
+	{
+		*[0] = -5
+		*[1] = 264
+		[2] = POISON
+		[3] = POISON
+		[4] = POISON
+		[5] = POISON
+		[6] = POISON
+		[7] = POISON
+		[8] = POISON
+		[9] = POISON
+		[10] = POISON
+		[11] = POISON
+		[12] = POISON
+		[13] = POISON
+		[14] = POISON
+		[15] = POISON
+		[16] = POISON
+	}
+}
+
+int StackRealloc(stack*, int) at ..\Stack\CPP\stack.cpp(150)
+Stack[00000000016dfcb0] (OK)
+Data_Hash = 104999890
+{
+	 size = 1
+	capacity = 17
+	data[0000000001736c20]
+	{
+		*[0] = -5
+		[1] = POISON
+		[2] = POISON
+		[3] = POISON
+		[4] = POISON
+		[5] = POISON
+		[6] = POISON
+		[7] = POISON
+		[8] = POISON
+		[9] = POISON
+		[10] = POISON
+		[11] = POISON
+		[12] = POISON
+		[13] = POISON
+		[14] = POISON
+		[15] = POISON
+		[16] = POISON
+	}
+}
+
+int StackRealloc(stack*, int) at ..\Stack\CPP\stack.cpp(168)
+Stack[00000000016dfcb0] (OK)
+Data_Hash = 20999974
+{
+	 size = 1
+	capacity = 8
+	data[0000000001736c20]
+	{
+		*[0] = -5
+		[1] = POISON
+		[2] = POISON
+		[3] = POISON
+		[4] = POISON
+		[5] = POISON
+		[6] = POISON
+		[7] = POISON
+	}
+}
+
+elem_t StackPop(stack*) at ..\Stack\CPP\stack.cpp(112)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = 20999974
+{
+	 size = 1
+	capacity = 8
+	data[0000000001736c20]
+	{
+		*[0] = -5
+		[1] = POISON
+		[2] = POISON
+		[3] = POISON
+		[4] = POISON
+		[5] = POISON
+		[6] = POISON
+		[7] = POISON
+	}
+}
+
+elem_t StackPop(stack*) at ..\Stack\CPP\stack.cpp(89)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = 20999974
+{
+	 size = 1
+	capacity = 8
+	data[0000000001736c20]
+	{
+		*[0] = -5
+		[1] = POISON
+		[2] = POISON
+		[3] = POISON
+		[4] = POISON
+		[5] = POISON
+		[6] = POISON
+		[7] = POISON
+	}
+}
+
+int StackRealloc(stack*, int) at ..\Stack\CPP\stack.cpp(150)
+Stack[00000000016dfcb0] (OK)
+Data_Hash = 21777756
+{
+	 size = 0
+	capacity = 8
+	data[0000000001736c20]
+	{
+		[0] = POISON
+		[1] = POISON
+		[2] = POISON
+		[3] = POISON
+		[4] = POISON
+		[5] = POISON
+		[6] = POISON
+		[7] = POISON
+	}
+}
+
+int StackRealloc(stack*, int) at ..\Stack\CPP\stack.cpp(168)
+Stack[00000000016dfcb0] (OK)
+Data_Hash = 4666662
+{
+	 size = 0
+	capacity = 4
+	data[0000000001736c20]
+	{
+		[0] = POISON
+		[1] = POISON
+		[2] = POISON
+		[3] = POISON
+	}
+}
+
+elem_t StackPop(stack*) at ..\Stack\CPP\stack.cpp(112)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = 4666662
+{
+	 size = 0
+	capacity = 4
+	data[0000000001736c20]
+	{
+		[0] = POISON
+		[1] = POISON
+		[2] = POISON
+		[3] = POISON
+	}
+}
+
+int StackPush(stack*, elem_t) at ..\Stack\CPP\stack.cpp(121)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = 4666662
+{
+	 size = 0
+	capacity = 4
+	data[0000000001736c20]
+	{
+		[0] = POISON
+		[1] = POISON
+		[2] = POISON
+		[3] = POISON
+	}
+}
+
+int StackPush(stack*, elem_t) at ..\Stack\CPP\stack.cpp(143)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = 3889144
+{
+	 size = 1
+	capacity = 4
+	data[0000000001736c20]
+	{
+		*[0] = 259
+		[1] = POISON
+		[2] = POISON
+		[3] = POISON
+	}
+}
+
+int StackPush(stack*, elem_t) at ..\Stack\CPP\stack.cpp(121)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = 3889144
+{
+	 size = 1
+	capacity = 4
+	data[0000000001736c20]
+	{
+		*[0] = 259
+		[1] = POISON
+		[2] = POISON
+		[3] = POISON
+	}
+}
+
+int StackPush(stack*, elem_t) at ..\Stack\CPP\stack.cpp(143)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = 2334090
+{
+	 size = 2
+	capacity = 4
+	data[0000000001736c20]
+	{
+		*[0] = 259
+		*[1] = 250
+		[2] = POISON
+		[3] = POISON
+	}
+}
+
+elem_t StackPop(stack*) at ..\Stack\CPP\stack.cpp(89)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = 2334090
+{
+	 size = 2
+	capacity = 4
+	data[0000000001736c20]
+	{
+		*[0] = 259
+		*[1] = 250
+		[2] = POISON
+		[3] = POISON
+	}
+}
+
+elem_t StackPop(stack*) at ..\Stack\CPP\stack.cpp(112)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = 3889144
+{
+	 size = 1
+	capacity = 4
+	data[0000000001736c20]
+	{
+		*[0] = 259
+		[1] = POISON
+		[2] = POISON
+		[3] = POISON
+	}
+}
+
+elem_t StackPop(stack*) at ..\Stack\CPP\stack.cpp(89)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = 3889144
+{
+	 size = 1
+	capacity = 4
+	data[0000000001736c20]
+	{
+		*[0] = 259
+		[1] = POISON
+		[2] = POISON
+		[3] = POISON
+	}
+}
+
+int StackRealloc(stack*, int) at ..\Stack\CPP\stack.cpp(150)
+Stack[00000000016dfcb0] (OK)
+Data_Hash = 4666662
+{
+	 size = 0
+	capacity = 4
+	data[0000000001736c20]
+	{
+		[0] = POISON
+		[1] = POISON
+		[2] = POISON
+		[3] = POISON
+	}
+}
+
+int StackRealloc(stack*, int) at ..\Stack\CPP\stack.cpp(168)
+Stack[00000000016dfcb0] (OK)
+Data_Hash = 777777
+{
+	 size = 0
+	capacity = 2
+	data[0000000001736c20]
+	{
+		[0] = POISON
+		[1] = POISON
+	}
+}
+
+elem_t StackPop(stack*) at ..\Stack\CPP\stack.cpp(112)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = 777777
+{
+	 size = 0
+	capacity = 2
+	data[0000000001736c20]
+	{
+		[0] = POISON
+		[1] = POISON
+	}
+}
+
+int StackPush(stack*, elem_t) at ..\Stack\CPP\stack.cpp(121)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = 777777
+{
+	 size = 0
+	capacity = 2
+	data[0000000001736c20]
+	{
+		[0] = POISON
+		[1] = POISON
+	}
+}
+
+int StackPush(stack*, elem_t) at ..\Stack\CPP\stack.cpp(143)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = 9
+{
+	 size = 1
+	capacity = 2
+	data[0000000001736c20]
+	{
+		*[0] = 9
+		[1] = POISON
+	}
+}
+
+int StackPush(stack*, elem_t) at ..\Stack\CPP\stack.cpp(121)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = 9
+{
+	 size = 1
+	capacity = 2
+	data[0000000001736c20]
+	{
+		*[0] = 9
+		[1] = POISON
+	}
+}
+
+int StackPush(stack*, elem_t) at ..\Stack\CPP\stack.cpp(143)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = 9
+{
+	 size = 2
+	capacity = 2
+	data[0000000001736c20]
+	{
+		*[0] = 9
+		*[1] = -1
+	}
+}
+
+elem_t StackPop(stack*) at ..\Stack\CPP\stack.cpp(89)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = 9
+{
+	 size = 2
+	capacity = 2
+	data[0000000001736c20]
+	{
+		*[0] = 9
+		*[1] = -1
+	}
+}
+
+elem_t StackPop(stack*) at ..\Stack\CPP\stack.cpp(112)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = 9
+{
+	 size = 1
+	capacity = 2
+	data[0000000001736c20]
+	{
+		*[0] = 9
+		[1] = POISON
+	}
+}
+
+elem_t StackPop(stack*) at ..\Stack\CPP\stack.cpp(89)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = 9
+{
+	 size = 1
+	capacity = 2
+	data[0000000001736c20]
+	{
+		*[0] = 9
+		[1] = POISON
+	}
+}
+
+elem_t StackPop(stack*) at ..\Stack\CPP\stack.cpp(112)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = 777777
+{
+	 size = 0
+	capacity = 2
+	data[0000000001736c20]
+	{
+		[0] = POISON
+		[1] = POISON
+	}
+}
+
+int StackPush(stack*, elem_t) at ..\Stack\CPP\stack.cpp(121)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = 777777
+{
+	 size = 0
+	capacity = 2
+	data[0000000001736c20]
+	{
+		[0] = POISON
+		[1] = POISON
+	}
+}
+
+int StackPush(stack*, elem_t) at ..\Stack\CPP\stack.cpp(143)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = -9
+{
+	 size = 1
+	capacity = 2
+	data[0000000001736c20]
+	{
+		*[0] = -9
+		[1] = POISON
+	}
+}
+
+elem_t StackPop(stack*) at ..\Stack\CPP\stack.cpp(89)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = -9
+{
+	 size = 1
+	capacity = 2
+	data[0000000001736c20]
+	{
+		*[0] = -9
+		[1] = POISON
+	}
+}
+
+elem_t StackPop(stack*) at ..\Stack\CPP\stack.cpp(112)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = 777777
+{
+	 size = 0
+	capacity = 2
+	data[0000000001736c20]
+	{
+		[0] = POISON
+		[1] = POISON
+	}
+}
+
+int StackPush(stack*, elem_t) at ..\Stack\CPP\stack.cpp(121)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = 777777
+{
+	 size = 0
+	capacity = 2
+	data[0000000001736c20]
+	{
+		[0] = POISON
+		[1] = POISON
+	}
+}
+
+int StackPush(stack*, elem_t) at ..\Stack\CPP\stack.cpp(143)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = -9
+{
+	 size = 1
+	capacity = 2
+	data[0000000001736c20]
+	{
+		*[0] = -9
+		[1] = POISON
+	}
+}
+
+int StackPush(stack*, elem_t) at ..\Stack\CPP\stack.cpp(121)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = -9
+{
+	 size = 1
+	capacity = 2
+	data[0000000001736c20]
+	{
+		*[0] = -9
+		[1] = POISON
+	}
+}
+
+int StackPush(stack*, elem_t) at ..\Stack\CPP\stack.cpp(143)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = -9
+{
+	 size = 2
+	capacity = 2
+	data[0000000001736c20]
+	{
+		*[0] = -9
+		*[1] = -9
+	}
+}
+
+elem_t StackPop(stack*) at ..\Stack\CPP\stack.cpp(89)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = -9
+{
+	 size = 2
+	capacity = 2
+	data[0000000001736c20]
+	{
+		*[0] = -9
+		*[1] = -9
+	}
+}
+
+elem_t StackPop(stack*) at ..\Stack\CPP\stack.cpp(112)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = -9
+{
+	 size = 1
+	capacity = 2
+	data[0000000001736c20]
+	{
+		*[0] = -9
+		[1] = POISON
+	}
+}
+
+elem_t StackPop(stack*) at ..\Stack\CPP\stack.cpp(89)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = -9
+{
+	 size = 1
+	capacity = 2
+	data[0000000001736c20]
+	{
+		*[0] = -9
+		[1] = POISON
+	}
+}
+
+elem_t StackPop(stack*) at ..\Stack\CPP\stack.cpp(112)
+Stack[00000000016dfcf0] (OK)
+Data_Hash = 777777
+{
+	 size = 0
+	capacity = 2
+	data[0000000001736c20]
+	{
+		[0] = POISON
+		[1] = POISON
+	}
+}
